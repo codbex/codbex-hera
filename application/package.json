@@ -3,7 +3,6 @@
     "login": "npm login --scope=@codbex --auth-type=legacy --registry=https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@codbex/codbex-hera": "0.1.0",
     "@codbex/codbex-employees": "0.4.0",
     "@codbex/codbex-vacations": "0.1.0",
     "@codbex/codbex-hera-print": "0.1.0",
@@ -11,6 +10,7 @@
     "@codbex/codbex-salaries": "0.1.0",
     "@codbex/codbex-payrolls": "0.1.0",
     "@codbex/codbex-number-generator-data": "0.2.0",
-    "@codbex/ide-branding": "0.1.0"
+    "@codbex/ide-branding": "0.1.0",
+    "@codbex/codbex-navigation-groups" : "0.2.0"
   }
 }

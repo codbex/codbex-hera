@@ -20,11 +20,11 @@ jobs:
       release-version: ${{ inputs.release-version }}
       release-content: |
         ## codbex-hera - ${{ inputs.release-version }}
-        
-        Property Management Application
-        
+  
+        Customer Management Application
+  
         ## Deployment
-        
+  
         ```
         docker run --name codbex-hera \
         --rm -p 80:80 \
@@ -38,9 +38,9 @@ jobs:
         --rm -p 80:80 \
         ghcr.io/codbex/codbex-hera-data-sample:${{ inputs.release-version }}
         ```
-        
+  
         ## Access points:
-        
+  
         - [/services/web/codbex-hera/gen/](http://localhost:80/services/web/codbex-hera/gen/) - Admin Panel
     secrets: inherit
   application-data-sample:

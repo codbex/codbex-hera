@@ -2,7 +2,7 @@ name: Pull Request - Application
 
 on:
   pull_request:
-    branches:
+    branches: 
       - main
 
 jobs:
